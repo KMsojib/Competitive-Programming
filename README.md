@@ -4,10 +4,11 @@ I'm a passionate competitive programmer with a strong foundation in algorithms a
 
 **My Competitive Programming Profiles:**
 
-* **Codeforces:** [Kawsra_Mahmud](https://codeforces.com/profile/Be.Sabar)
-* **Codechef:** [kawsar_12](https://www.codechef.com/users/kawsar_12) (2 stars, 1428 rating)
-* **Atcoder:** [MD_Kawsar_Mahmud](https://atcoder.jp/users/MD_Kawsar_Mahmud)
-* **Leetcode:** [Kawsar_mahmud_](https://leetcode.com/u/Kawsar_mahmud_/)
+* **Codeforces:** [Codeforces](https://codeforces.com/profile/Be.Sabar)
+* **Codechef:** [Codechef](https://www.codechef.com/users/kawsar_12) (2 stars, 1428 rating)
+* **Atcoder:** [Atcoder](https://atcoder.jp/users/MD_Kawsar_Mahmud)
+* **Leetcode:** [Leetcode](https://leetcode.com/u/Kawsar_mahmud_/)
+* **ICPC Global:** [ICPC](https://icpc.global/ICPCID/EYB4BOXPYUIU)
 
 **Achievements:**
 
