@@ -1,46 +1,38 @@
-#include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
-using ll = long long;
-
+#define ll long long
 bool isSquare(ll n) {
     int x = std::sqrt(n);
     return 1LL * x * x == n;
 }
-
-void solve()
-{
+void solve() {
     int n;
-    std::cin>>n;
-
-    ll sum = n*(n+1)/2;
-    if(isSquare(sum)){
-        cout<<"-1"<<endl;
+    std::cin >> n;
+    
+    ll sum = 1LL * n * (n + 1) / 2;
+    if (isSquare(sum)) {
+        std::cout << -1 << "\n";
         return;
     }
-
-    std::vector<int> a;
-    std::iota(a.begin(), a.end(), 1);
-    for(int i =1;i<n;i++){
-         if (isSquare(1LL * i * (i + 1) / 2)){
-            std::swap(a[i], a[i-1]);
+    
+    std::vector<int> p(n);
+    std::iota(p.begin(), p.end(), 1);
+    for (int i = 1; i < n; i++) {
+        if (isSquare(1LL * i * (i + 1) / 2)) {
+            std::swap(p[i], p[i - 1]);
         }
     }
-
-    for(auto x: a){
-        std::cout << x << " \n"[x == a.back()];
+    for (auto x : p) {
+        std::cout << x << " \n"[x == p.back()];
     }
 }
-
-int main()
-{
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
+ 
+int main() {
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
     int t;
-    cin >> t;
-    while (t--)
-    {
+    std::cin >> t;
+    while (t--) {
         solve();
     }
     return 0;
